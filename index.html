@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="gameboard">Maanic Tech Play Board</div>
+        <div class="frame">
+            <div class="scorebar">
+                <div class="hit-f">
+                    <div class="tagname">Hit-me :</div>
+                    <div class="tagvalue" id="hitval">0</div>
+                </div>
+                <div class="time-f">
+                    <div class="tagname">Timer :</div>
+                    <div class="tagvalue" id="timeval">60</div>
+                </div>
+                <div class="score-f">
+                    <div class="tagname">Score :</div>
+                    <div class="tagvalue" id="scoreval">0</div>
+                </div>
+            </div>
+            <div class="playboard" id="playboard">
+                <div class="bubbles" id="bubbles"></div>
+            </div>
+            <div class="info">
+                <div class="highscore">hight Score : <span id="highscore">0</span></div>
+                <button id="replay">Replay</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
